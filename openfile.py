@@ -7,5 +7,4 @@ fhand = open(fname)
 inp = fhand.read()
 for line in inp:
     line = line.rstrip()
-    capital = inp.upper()
-print(capital)
+print(inp.upper())
